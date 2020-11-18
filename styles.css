@@ -183,7 +183,7 @@ a {
   /* background-image: url('./assets/home/bg8.png'); */
   -webkit-background-size: cover;
   background-size: cover;
-  color: #fff;
+  color: #000;
   min-height: 100vh;
   padding-top: 8em;
   padding-bottom: 1em;
@@ -193,10 +193,10 @@ a {
 }
 #home::after {
   content: '';
-  background: url('./assets/home/bg5.jpg');
+  background: url('./assets/home/newbg11.jpg');
   -webkit-background-size: cover;
   background-size: cover;
-  opacity: 0.3;
+  opacity: 0.7;
   top: 0;
   left: 0;
   bottom: 0;
@@ -224,7 +224,7 @@ a {
   margin-bottom: 0;
   font-family: 'Surveyor Display', 'Surveyor Display A', 'Surveyor Display B',
     serif;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   letter-spacing: 0;
 }
 
