@@ -25,6 +25,7 @@
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="icon" href="assets/logo4.png" type="image/x-icon" />
     <title>Sujay & Ritu</title>
   </head>
 
@@ -50,6 +51,9 @@
         } else {
           $('#navLinks').addClass('show')
         }
+      }
+      function onlineClick() {
+        alert('Stay tuned for the details! It will be available shortly!')
       }
     </script>
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
@@ -170,10 +174,9 @@
             illo nesciunt minus inventore hic, rem iusto?
           </p>
           <p class="hasharea">
-            <span class="hashtag">#</span>RituGotSued&nbsp;&nbsp;<span
-              class="hashtag"
-              >&</span
-            >&nbsp;&nbsp; <span class="hashtag">#</span>SujayRanWithAiran
+            <span class="hashtag">#</span>RituGotSued<br /><span class="hashtag"
+              >#</span
+            >SujayRanWithAiran
           </p>
         </div>
       </div>
@@ -193,10 +196,12 @@
             family members will be hosting the wedding celebration virtually as
             well.
           </p>
-          <a href="" target="_blank" class="link-button golden"
+          <a href="#online" onclick="onlineClick()" class="link-button golden"
             >Engagement & Sangeet</a
           ><br />
-          <a href="" target="_blank" class="link-button golden">The Wedding</a>
+          <a href="#online" onclick="onlineClick()" class="link-button golden"
+            >The Wedding</a
+          >
         </div>
       </div>
       <div class="col-sm-3"></div>
@@ -208,7 +213,7 @@
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: {
-          delay: 2500,
+          delay: 250000,
           disableOnInteraction: false,
         },
         pagination: {

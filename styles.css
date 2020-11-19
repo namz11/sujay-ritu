@@ -183,7 +183,7 @@ a {
   /* background-image: url('./assets/home/bg8.png'); */
   -webkit-background-size: cover;
   background-size: cover;
-  color: #000;
+  color: #333;
   min-height: 100vh;
   padding-top: 8em;
   padding-bottom: 1em;
@@ -274,7 +274,7 @@ a {
 }
 #story .underline {
   border-top-width: 4px;
-  border-color: #000000;
+  border-color: #333;
 }
 
 .link-button.golden,
