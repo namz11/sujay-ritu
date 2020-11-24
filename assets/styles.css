@@ -224,7 +224,7 @@ a {
   margin-bottom: 0;
   font-family: 'Surveyor Display', 'Surveyor Display A', 'Surveyor Display B',
     serif;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   letter-spacing: 0;
 }
 
