@@ -377,6 +377,14 @@ input[type='submit'].link-button {
   .swiper-slide-active > .img6 {
     margin-left: -8rem;
   }
+  #online .panelContent {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .link-button.golden,
+  input[type='submit'].link-button.golden {
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 768px) {
   #home h1 {
