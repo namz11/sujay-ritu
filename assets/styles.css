@@ -385,6 +385,12 @@ input[type='submit'].link-button {
   input[type='submit'].link-button.golden {
     font-size: 12px;
   }
+  .swiper-button-next {
+    display: none !important;
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
 }
 @media screen and (min-width: 768px) {
   #home h1 {
@@ -400,6 +406,12 @@ input[type='submit'].link-button {
   #online .online-description:last-child {
     margin-right: 0;
   }
+  .swiper-button-next {
+    display: none !important;
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
 }
 @media screen and (min-width: 1024px) {
   #home h1 {
@@ -411,6 +423,12 @@ input[type='submit'].link-button {
   }
   .info {
     font-size: 1.5rem;
+  }
+  .swiper-button-next {
+    display: block !important;
+  }
+  .swiper-button-prev {
+    display: block !important;
   }
 }
 @media screen and (min-width: 667px) and (max-width: 1360px) {
