@@ -299,7 +299,7 @@ input[type='submit'].link-button {
 }
 
 .swiper-container {
-  height: 90vh;
+  height: 95vh;
 }
 
 .swiper-slide {
@@ -307,11 +307,11 @@ input[type='submit'].link-button {
   background: #fff;
 }
 .swiper-slide-img {
-  height: 90vh;
+  height: 95vh;
   width: auto;
 }
 #story {
-  height: 90vh;
+  height: 95vh;
 }
 #story h2 {
   text-transform: uppercase;
